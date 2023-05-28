@@ -4,13 +4,12 @@ pipeline {
         stage("one") {
             steps {
             echo "one"
-
             }
         }
         stage('Two') {
             steps {
-                echo 'two'
+                echo "two"
             }
         }
-
     }
+}
